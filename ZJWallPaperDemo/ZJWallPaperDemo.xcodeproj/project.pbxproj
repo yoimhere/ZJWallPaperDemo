@@ -1,0 +1,485 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C33BCCC91B58A8ED007416ED /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C33BCCC81B58A8ED007416ED /* main.m */; };
+		C33BCCCC1B58A8EE007416ED /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C33BCCCB1B58A8EE007416ED /* AppDelegate.m */; };
+		C33BCCCF1B58A8F0007416ED /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C33BCCCE1B58A8F0007416ED /* ViewController.m */; };
+		C33BCCD21B58A8F2007416ED /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C33BCCD01B58A8F2007416ED /* Main.storyboard */; };
+		C33BCCD41B58A8F2007416ED /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C33BCCD31B58A8F2007416ED /* Images.xcassets */; };
+		C33BCCD71B58A8F3007416ED /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = C33BCCD51B58A8F3007416ED /* LaunchScreen.xib */; };
+		C33BCCE31B58A8F7007416ED /* ZJWallPaperDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C33BCCE21B58A8F7007416ED /* ZJWallPaperDemoTests.m */; };
+		C33BCCF51B58ABE1007416ED /* ZJWallPaperVC.m in Sources */ = {isa = PBXBuildFile; fileRef = C33BCCF41B58ABE1007416ED /* ZJWallPaperVC.m */; };
+		C33BCCF81B58ADBA007416ED /* UIImage+ZJWallPaper.m in Sources */ = {isa = PBXBuildFile; fileRef = C33BCCF71B58ADBA007416ED /* UIImage+ZJWallPaper.m */; };
+		C3F75B671B5C919E00DBB8C1 /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = C3F75B661B5C919E00DBB8C1 /* MBProgressHUD.m */; };
+		CD15DBB01B691DE700BC41DD /* demo.gif in Resources */ = {isa = PBXBuildFile; fileRef = CD15DBAD1B691DE700BC41DD /* demo.gif */; };
+		CD15DBB11B691DE700BC41DD /* img1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CD15DBAE1B691DE700BC41DD /* img1.jpg */; };
+		CD15DBB21B691DE700BC41DD /* img2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CD15DBAF1B691DE700BC41DD /* img2.jpg */; };
+		CDA9B90A1B67E39400463B4E /* PhotoLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CDA9B9091B67E39400463B4E /* PhotoLibrary.framework */; };
+		CDA9B90B1B67E3C300463B4E /* PhotoLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CDA9B9091B67E39400463B4E /* PhotoLibrary.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C33BCCDD1B58A8F6007416ED /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C33BCCBB1B58A8EA007416ED /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C33BCCC21B58A8EC007416ED;
+			remoteInfo = ZJWallPaperDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C33BCCC31B58A8EC007416ED /* ZJWallPaperDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZJWallPaperDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C33BCCC71B58A8ED007416ED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C33BCCC81B58A8ED007416ED /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C33BCCCA1B58A8EE007416ED /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C33BCCCB1B58A8EE007416ED /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C33BCCCD1B58A8EF007416ED /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		C33BCCCE1B58A8F0007416ED /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		C33BCCD11B58A8F2007416ED /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C33BCCD31B58A8F2007416ED /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		C33BCCD61B58A8F3007416ED /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		C33BCCDC1B58A8F6007416ED /* ZJWallPaperDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZJWallPaperDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C33BCCE11B58A8F7007416ED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C33BCCE21B58A8F7007416ED /* ZJWallPaperDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZJWallPaperDemoTests.m; sourceTree = "<group>"; };
+		C33BCCED1B58A9EF007416ED /* PLStaticWallpaperImageViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PLStaticWallpaperImageViewController.h; sourceTree = "<group>"; };
+		C33BCCEE1B58AA1F007416ED /* PLWallpaperImageViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PLWallpaperImageViewController.h; sourceTree = "<group>"; };
+		C33BCCF31B58ABE1007416ED /* ZJWallPaperVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZJWallPaperVC.h; sourceTree = "<group>"; };
+		C33BCCF41B58ABE1007416ED /* ZJWallPaperVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZJWallPaperVC.m; sourceTree = "<group>"; };
+		C33BCCF61B58ADBA007416ED /* UIImage+ZJWallPaper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+ZJWallPaper.h"; sourceTree = "<group>"; };
+		C33BCCF71B58ADBA007416ED /* UIImage+ZJWallPaper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+ZJWallPaper.m"; sourceTree = "<group>"; };
+		C3F75B651B5C919A00DBB8C1 /* MBProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
+		C3F75B661B5C919E00DBB8C1 /* MBProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
+		CD15DBAD1B691DE700BC41DD /* demo.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = demo.gif; sourceTree = "<group>"; };
+		CD15DBAE1B691DE700BC41DD /* img1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = img1.jpg; sourceTree = "<group>"; };
+		CD15DBAF1B691DE700BC41DD /* img2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = img2.jpg; sourceTree = "<group>"; };
+		CDA9B9091B67E39400463B4E /* PhotoLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = PhotoLibrary.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/PrivateFrameworks/PhotoLibrary.framework; sourceTree = DEVELOPER_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C33BCCC01B58A8EC007416ED /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CDA9B90B1B67E3C300463B4E /* PhotoLibrary.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C33BCCD91B58A8F5007416ED /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CDA9B90A1B67E39400463B4E /* PhotoLibrary.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C33BCCBA1B58A8E9007416ED = {
+			isa = PBXGroup;
+			children = (
+				CDA9B9091B67E39400463B4E /* PhotoLibrary.framework */,
+				C33BCCC51B58A8EC007416ED /* ZJWallPaperDemo */,
+				C33BCCDF1B58A8F6007416ED /* ZJWallPaperDemoTests */,
+				C33BCCC41B58A8EC007416ED /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C33BCCC41B58A8EC007416ED /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C33BCCC31B58A8EC007416ED /* ZJWallPaperDemo.app */,
+				C33BCCDC1B58A8F6007416ED /* ZJWallPaperDemoTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C33BCCC51B58A8EC007416ED /* ZJWallPaperDemo */ = {
+			isa = PBXGroup;
+			children = (
+				CD15DBAD1B691DE700BC41DD /* demo.gif */,
+				CD15DBAE1B691DE700BC41DD /* img1.jpg */,
+				CD15DBAF1B691DE700BC41DD /* img2.jpg */,
+				C3F75B661B5C919E00DBB8C1 /* MBProgressHUD.m */,
+				C3F75B651B5C919A00DBB8C1 /* MBProgressHUD.h */,
+				C33BCCEC1B58A98F007416ED /* ZJWallPaperTool */,
+				C33BCCCA1B58A8EE007416ED /* AppDelegate.h */,
+				C33BCCCB1B58A8EE007416ED /* AppDelegate.m */,
+				C33BCCCD1B58A8EF007416ED /* ViewController.h */,
+				C33BCCCE1B58A8F0007416ED /* ViewController.m */,
+				C33BCCD01B58A8F2007416ED /* Main.storyboard */,
+				C33BCCD31B58A8F2007416ED /* Images.xcassets */,
+				C33BCCD51B58A8F3007416ED /* LaunchScreen.xib */,
+				C33BCCC61B58A8ED007416ED /* Supporting Files */,
+			);
+			path = ZJWallPaperDemo;
+			sourceTree = "<group>";
+		};
+		C33BCCC61B58A8ED007416ED /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C33BCCC71B58A8ED007416ED /* Info.plist */,
+				C33BCCC81B58A8ED007416ED /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C33BCCDF1B58A8F6007416ED /* ZJWallPaperDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				C33BCCE21B58A8F7007416ED /* ZJWallPaperDemoTests.m */,
+				C33BCCE01B58A8F7007416ED /* Supporting Files */,
+			);
+			path = ZJWallPaperDemoTests;
+			sourceTree = "<group>";
+		};
+		C33BCCE01B58A8F7007416ED /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C33BCCE11B58A8F7007416ED /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C33BCCEC1B58A98F007416ED /* ZJWallPaperTool */ = {
+			isa = PBXGroup;
+			children = (
+				C33BCCED1B58A9EF007416ED /* PLStaticWallpaperImageViewController.h */,
+				C33BCCEE1B58AA1F007416ED /* PLWallpaperImageViewController.h */,
+				C33BCCF31B58ABE1007416ED /* ZJWallPaperVC.h */,
+				C33BCCF41B58ABE1007416ED /* ZJWallPaperVC.m */,
+				C33BCCF61B58ADBA007416ED /* UIImage+ZJWallPaper.h */,
+				C33BCCF71B58ADBA007416ED /* UIImage+ZJWallPaper.m */,
+			);
+			path = ZJWallPaperTool;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C33BCCC21B58A8EC007416ED /* ZJWallPaperDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C33BCCE61B58A8F7007416ED /* Build configuration list for PBXNativeTarget "ZJWallPaperDemo" */;
+			buildPhases = (
+				C33BCCBF1B58A8EC007416ED /* Sources */,
+				C33BCCC01B58A8EC007416ED /* Frameworks */,
+				C33BCCC11B58A8EC007416ED /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZJWallPaperDemo;
+			productName = ZJWallPaperDemo;
+			productReference = C33BCCC31B58A8EC007416ED /* ZJWallPaperDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C33BCCDB1B58A8F5007416ED /* ZJWallPaperDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C33BCCE91B58A8F7007416ED /* Build configuration list for PBXNativeTarget "ZJWallPaperDemoTests" */;
+			buildPhases = (
+				C33BCCD81B58A8F5007416ED /* Sources */,
+				C33BCCD91B58A8F5007416ED /* Frameworks */,
+				C33BCCDA1B58A8F5007416ED /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C33BCCDE1B58A8F6007416ED /* PBXTargetDependency */,
+			);
+			name = ZJWallPaperDemoTests;
+			productName = ZJWallPaperDemoTests;
+			productReference = C33BCCDC1B58A8F6007416ED /* ZJWallPaperDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C33BCCBB1B58A8EA007416ED /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = onebyte;
+				TargetAttributes = {
+					C33BCCC21B58A8EC007416ED = {
+						CreatedOnToolsVersion = 6.3;
+					};
+					C33BCCDB1B58A8F5007416ED = {
+						CreatedOnToolsVersion = 6.3;
+						TestTargetID = C33BCCC21B58A8EC007416ED;
+					};
+				};
+			};
+			buildConfigurationList = C33BCCBE1B58A8EB007416ED /* Build configuration list for PBXProject "ZJWallPaperDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C33BCCBA1B58A8E9007416ED;
+			productRefGroup = C33BCCC41B58A8EC007416ED /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C33BCCC21B58A8EC007416ED /* ZJWallPaperDemo */,
+				C33BCCDB1B58A8F5007416ED /* ZJWallPaperDemoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C33BCCC11B58A8EC007416ED /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C33BCCD21B58A8F2007416ED /* Main.storyboard in Resources */,
+				CD15DBB11B691DE700BC41DD /* img1.jpg in Resources */,
+				CD15DBB01B691DE700BC41DD /* demo.gif in Resources */,
+				C33BCCD71B58A8F3007416ED /* LaunchScreen.xib in Resources */,
+				CD15DBB21B691DE700BC41DD /* img2.jpg in Resources */,
+				C33BCCD41B58A8F2007416ED /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C33BCCDA1B58A8F5007416ED /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C33BCCBF1B58A8EC007416ED /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C33BCCCF1B58A8F0007416ED /* ViewController.m in Sources */,
+				C3F75B671B5C919E00DBB8C1 /* MBProgressHUD.m in Sources */,
+				C33BCCF51B58ABE1007416ED /* ZJWallPaperVC.m in Sources */,
+				C33BCCF81B58ADBA007416ED /* UIImage+ZJWallPaper.m in Sources */,
+				C33BCCCC1B58A8EE007416ED /* AppDelegate.m in Sources */,
+				C33BCCC91B58A8ED007416ED /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C33BCCD81B58A8F5007416ED /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C33BCCE31B58A8F7007416ED /* ZJWallPaperDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C33BCCDE1B58A8F6007416ED /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C33BCCC21B58A8EC007416ED /* ZJWallPaperDemo */;
+			targetProxy = C33BCCDD1B58A8F6007416ED /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C33BCCD01B58A8F2007416ED /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C33BCCD11B58A8F2007416ED /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C33BCCD51B58A8F3007416ED /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C33BCCD61B58A8F3007416ED /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C33BCCE41B58A8F7007416ED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C33BCCE51B58A8F7007416ED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C33BCCE71B58A8F7007416ED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)$(SYSTEM_LIBRARY_DIR)/PrivateFrameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = ZJWallPaperDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C33BCCE81B58A8F7007416ED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)$(SYSTEM_LIBRARY_DIR)/PrivateFrameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = ZJWallPaperDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		C33BCCEA1B58A8F7007416ED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = "$(SDKROOT)$(SYSTEM_LIBRARY_DIR)/PrivateFrameworks";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = ZJWallPaperDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZJWallPaperDemo.app/ZJWallPaperDemo";
+			};
+			name = Debug;
+		};
+		C33BCCEB1B58A8F7007416ED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = "$(SDKROOT)$(SYSTEM_LIBRARY_DIR)/PrivateFrameworks";
+				INFOPLIST_FILE = ZJWallPaperDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZJWallPaperDemo.app/ZJWallPaperDemo";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C33BCCBE1B58A8EB007416ED /* Build configuration list for PBXProject "ZJWallPaperDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C33BCCE41B58A8F7007416ED /* Debug */,
+				C33BCCE51B58A8F7007416ED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C33BCCE61B58A8F7007416ED /* Build configuration list for PBXNativeTarget "ZJWallPaperDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C33BCCE71B58A8F7007416ED /* Debug */,
+				C33BCCE81B58A8F7007416ED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C33BCCE91B58A8F7007416ED /* Build configuration list for PBXNativeTarget "ZJWallPaperDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C33BCCEA1B58A8F7007416ED /* Debug */,
+				C33BCCEB1B58A8F7007416ED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C33BCCBB1B58A8EA007416ED /* Project object */;
+}
