@@ -10,11 +10,11 @@ ZJWallPaperDemo:
 
 例如:
 =====
-> [willSetWallPaperImage zj_saveAsHomeScreen];//设为主屏幕壁纸
+> [wallPaperImage zj_saveAsHomeScreen];//设为主屏幕壁纸
    
-> [willSetWallPaperImage zj_saveAsLockScreen];//设为锁屏壁纸
+> [wallPaperImage zj_saveAsLockScreen];//设为锁屏壁纸
             
-> [willSetWallPaperImage zj_saveAsHomeScreenAndLockScreen];//同时设置为锁屏和主屏幕壁纸
+> [wallPaperImage zj_saveAsHomeScreenAndLockScreen];//同时设置为锁屏和主屏幕壁纸
 
 例子:
 =====
