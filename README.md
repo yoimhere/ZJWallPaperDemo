@@ -1,10 +1,10 @@
 ZJWallPaperDemo:
 =====
-`无需越狱`,使用苹果的`私有Api动态改变壁纸`和类似`home键`(appStore可用)的小功能的例子,有用赏个小星星吧
+`无需越狱`,使用苹果的`私有Api动态改变壁纸`和类似`home键`(appStore可用)的小功能的例子,模拟器和真机可用,有用赏个小星星吧
  
 如何使用:
 =====
-1.  /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/PrivateFrameworks/PhotoLibrary 加入到 build phases -> link binary with libs(拖进去,不要add Other)
+1.  /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/PrivateFrameworks/PhotoLibrary 加入到 build phases -> link binary with libs(拖进去,不要add other)
 2. #import "UIImage+ZJWallPaper.h"
 3. 使用一个存在的image实例调用   "UIImage+ZJWallPaper.h" 的方法就行了
 
