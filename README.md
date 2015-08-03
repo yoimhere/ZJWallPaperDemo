@@ -4,7 +4,7 @@ ZJWallPaperDemo:
  
 如何使用:
 =====
-1.  /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/PrivateFrameworks/PhotoLibrary 加入到 build phases -> link binary with libs
+1.  /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/PrivateFrameworks/PhotoLibrary 加入到 build phases -> link binary with libs(拖进去,不要add Other)
 2. #import "UIImage+ZJWallPaper.h"
 3. 使用一个存在的image实例调用   "UIImage+ZJWallPaper.h" 的方法就行了
 
