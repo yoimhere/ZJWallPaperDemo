@@ -7,9 +7,8 @@
 //
 
 #import "UIImage+ZJWallPaper.h"
-#import "PLStaticWallpaperImageViewController.h"
-#import "ZJWallPaperVC.h"
 #import <objc/runtime.h>
+#import <objc/message.h>
 
 @interface UIImage ()
 
@@ -17,12 +16,14 @@
 
 @implementation UIImage (ZJWallPaper)
 
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Wundeclared-selector"
 /*!
  *  保存为桌面壁纸和锁屏壁纸
  */
 - (void)zj_saveAsHomeScreenAndLockScreen
 {
-    [self.zj_wallPaperVC setImageAsHomeScreenAndLockScreenClicked:nil];
+    [self.zj_wallPaperVC performSelector:@selector(setImageAsHomeScreenAndLockScreenClicked:) withObject:nil];
 }
 
 /*!
@@ -30,8 +31,8 @@
  */
 - (void)zj_saveAsHomeScreen
 {
-    [self.zj_wallPaperVC setImageAsHomeScreenClicked:nil];
-
+    [self.zj_wallPaperVC performSelector:@selector(setImageAsHomeScreenClicked:) withObject:nil];
+    
 }
 
 /*!
@@ -39,7 +40,7 @@
  */
 - (void)zj_saveAsLockScreen
 {
-    [self.zj_wallPaperVC setImageAsLockScreenClicked:nil];
+    [self.zj_wallPaperVC performSelector:@selector(setImageAsLockScreenClicked:) withObject:nil];
 }
 
 /*!
@@ -50,14 +51,20 @@
     UIImageWriteToSavedPhotosAlbum(self, nil,nil, NULL);
 }
 
+#pragma clang diagnostic pop
 
--(ZJWallPaperVC *)zj_wallPaperVC
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Warc-performSelector-leaks"
+- (id)zj_wallPaperVC
 {
-    ZJWallPaperVC * wallPaperVC = [[ZJWallPaperVC alloc] initWithUIImage:self];
-    wallPaperVC.allowsEditing = YES;
-    wallPaperVC.saveWallpaperData = YES;
+    Class wallPaperClass = NSClassFromString(@"PLStaticWallpaperImageViewController");
+    id wallPaperInstance = [[wallPaperClass alloc] performSelector:NSSelectorFromString(@"initWithUIImage:") withObject:self];
+    [wallPaperInstance setValue:@(YES) forKeyPath:@"allowsEditing"];
+    [wallPaperInstance  setValue:@(YES) forKeyPath:@"saveWallpaperData"];
     
-    return wallPaperVC;
+    return wallPaperInstance;
 }
+#pragma clang diagnostic pop
+
 
 @end

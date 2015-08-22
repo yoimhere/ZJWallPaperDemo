@@ -14,7 +14,6 @@
 		C33BCCD41B58A8F2007416ED /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C33BCCD31B58A8F2007416ED /* Images.xcassets */; };
 		C33BCCD71B58A8F3007416ED /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = C33BCCD51B58A8F3007416ED /* LaunchScreen.xib */; };
 		C33BCCE31B58A8F7007416ED /* ZJWallPaperDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C33BCCE21B58A8F7007416ED /* ZJWallPaperDemoTests.m */; };
-		C33BCCF51B58ABE1007416ED /* ZJWallPaperVC.m in Sources */ = {isa = PBXBuildFile; fileRef = C33BCCF41B58ABE1007416ED /* ZJWallPaperVC.m */; };
 		C33BCCF81B58ADBA007416ED /* UIImage+ZJWallPaper.m in Sources */ = {isa = PBXBuildFile; fileRef = C33BCCF71B58ADBA007416ED /* UIImage+ZJWallPaper.m */; };
 		C3F75B671B5C919E00DBB8C1 /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = C3F75B661B5C919E00DBB8C1 /* MBProgressHUD.m */; };
 		CD15DBB01B691DE700BC41DD /* demo.gif in Resources */ = {isa = PBXBuildFile; fileRef = CD15DBAD1B691DE700BC41DD /* demo.gif */; };
@@ -48,10 +47,6 @@
 		C33BCCDC1B58A8F6007416ED /* ZJWallPaperDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZJWallPaperDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C33BCCE11B58A8F7007416ED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C33BCCE21B58A8F7007416ED /* ZJWallPaperDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZJWallPaperDemoTests.m; sourceTree = "<group>"; };
-		C33BCCED1B58A9EF007416ED /* PLStaticWallpaperImageViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PLStaticWallpaperImageViewController.h; sourceTree = "<group>"; };
-		C33BCCEE1B58AA1F007416ED /* PLWallpaperImageViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PLWallpaperImageViewController.h; sourceTree = "<group>"; };
-		C33BCCF31B58ABE1007416ED /* ZJWallPaperVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZJWallPaperVC.h; sourceTree = "<group>"; };
-		C33BCCF41B58ABE1007416ED /* ZJWallPaperVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZJWallPaperVC.m; sourceTree = "<group>"; };
 		C33BCCF61B58ADBA007416ED /* UIImage+ZJWallPaper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+ZJWallPaper.h"; sourceTree = "<group>"; };
 		C33BCCF71B58ADBA007416ED /* UIImage+ZJWallPaper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+ZJWallPaper.m"; sourceTree = "<group>"; };
 		C3F75B651B5C919A00DBB8C1 /* MBProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
@@ -151,10 +146,6 @@
 		C33BCCEC1B58A98F007416ED /* ZJWallPaperTool */ = {
 			isa = PBXGroup;
 			children = (
-				C33BCCED1B58A9EF007416ED /* PLStaticWallpaperImageViewController.h */,
-				C33BCCEE1B58AA1F007416ED /* PLWallpaperImageViewController.h */,
-				C33BCCF31B58ABE1007416ED /* ZJWallPaperVC.h */,
-				C33BCCF41B58ABE1007416ED /* ZJWallPaperVC.m */,
 				C33BCCF61B58ADBA007416ED /* UIImage+ZJWallPaper.h */,
 				C33BCCF71B58ADBA007416ED /* UIImage+ZJWallPaper.m */,
 			);
@@ -266,7 +257,6 @@
 			files = (
 				C33BCCCF1B58A8F0007416ED /* ViewController.m in Sources */,
 				C3F75B671B5C919E00DBB8C1 /* MBProgressHUD.m in Sources */,
-				C33BCCF51B58ABE1007416ED /* ZJWallPaperVC.m in Sources */,
 				C33BCCF81B58ADBA007416ED /* UIImage+ZJWallPaper.m in Sources */,
 				C33BCCCC1B58A8EE007416ED /* AppDelegate.m in Sources */,
 				C33BCCC91B58A8ED007416ED /* main.m in Sources */,
